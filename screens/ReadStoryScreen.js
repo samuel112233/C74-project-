@@ -63,9 +63,9 @@ export default class ReadStoryScreen extends React.Component {
         return(
           <View style ={styles.container}>
             <Header
-                 backgroundColor = {'pink'}
+                 backgroundColor = 'pink'
                  centerComponent = {{
-                   text : 'Bed Time Stories'
+                   text : 'Bed Time Stories',
                    style : { color: 'white', fontSize: 20}
                 }}
             />
@@ -116,6 +116,6 @@ const styles = StyleSheet.create({
     borderWidth:2,
     borderColor: 'pink',
     justifyContent:'center',
-    alignSelf:'center,'
+    
   }
 });
